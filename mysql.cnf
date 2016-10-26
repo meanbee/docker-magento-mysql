@@ -1,0 +1,11 @@
+########################################
+# MySQL configuration for Magento
+########################################
+
+[mysqld]
+
+# Allow large database imports
+max_allowed_packet = 64M
+
+# Allow large InnoDb tables
+innodb_file_per_table = 1
